@@ -1,4 +1,7 @@
 import React from "react";
+import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import NotFound from "../NotFound/NotFound";
 import Reviews from "../Reviews/Reviews";
 import "./Home.css";
 const Home = () => {
@@ -42,11 +45,12 @@ const Home = () => {
           />
         </div>
       </div>
-
+      
       {/* Review Section  */}
-      <div className="review-section mx-5 mt-5">
+      <div className="review-section m-5">
         <h2 className="text-start">Reviews</h2>
         <Reviews></Reviews>
+        <Link to='/reviews'>See All</Link>
       </div>
     </div>
   );

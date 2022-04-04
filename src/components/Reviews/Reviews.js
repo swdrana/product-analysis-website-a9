@@ -3,7 +3,10 @@ import Review from '../Review/Review';
 import './Reviews.css'
 const Reviews = () => {
     return (
-        <div>
+        <div className='all-reviews'>
+            <Review></Review>
+            <Review></Review>
+            <Review></Review>
             <Review></Review>
         </div>
     );

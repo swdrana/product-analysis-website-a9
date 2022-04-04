@@ -1,7 +1,4 @@
-.nav{
-    margin-top: 20px;
-}
-.nav a{
+.my-nav a{
     text-decoration: none;
     margin-left: 20px;
     border: 1px solid gray;
@@ -9,6 +6,6 @@
     width: 85px;
     height: 30px;
 }
-.nav a:hover{
+.my-nav a:hover{
     text-decoration: underline;
 }

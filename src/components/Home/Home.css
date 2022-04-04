@@ -1,0 +1,9 @@
+.review-section a{
+    text-decoration: none;
+    height: 30px;
+    width: 50px;
+    background-color: orangered;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 5px;
+}
