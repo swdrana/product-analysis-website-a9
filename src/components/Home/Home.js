@@ -47,8 +47,7 @@ const Home = () => {
       </div>
       
       {/* Review Section  */}
-      <div className="review-section m-5">
-        <h2 className="text-start">Reviews</h2>
+      <div className="review-section">
         <Reviews></Reviews>
         <Link to='/reviews'>See All</Link>
       </div>
