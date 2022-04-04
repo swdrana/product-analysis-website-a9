@@ -6,4 +6,8 @@
     padding: 5px 20px;
     color: white;
     border-radius: 5px;
+}     
+.feature hr{
+    background-color: orangered;
+    opacity: 1;
 }

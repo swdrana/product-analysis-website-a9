@@ -10,8 +10,10 @@ const Header = () => {
         defaultActiveKey="/home"
         className="d-flex justify-content-between align-items-center px-5 py-4 my-nav"
       >
-        <h1 className="m-0" style={{'color':'orangered'}}>Book Review</h1>
-        <div className="d-flex ">
+        <Link to="/" className="heading-text">
+          <h1 className="heading-text m-0">Book Review</h1>
+        </Link>
+        <div className="d-flex all-link">
           <Nav.Item>{/* <Nav.Link href="/home">Home</Nav.Link> */}</Nav.Item>
           <Nav.Item>{/* <Nav.Link href="order">Order</Nav.Link> */}</Nav.Item>
           <Link to="/home">Home</Link>
