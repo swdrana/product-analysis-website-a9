@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import useReview from "../../utilities/hooks/useReview";
 import Review from "../Review/Review";
 import Reviews from "../Reviews/Reviews";
+import featureImg from "./../../images/hablu.jpg";
 import "./Home.css";
 const Home = () => {
   const [reviews, setReviews] = useReview();
@@ -40,7 +41,7 @@ const Home = () => {
         </div>
         <div className="img col-md-4 col-sm-12">
           <img
-            src="https://static-01.daraz.com.bd/p/mdc/95dac66cff6c0bab100e982c73511406.jpg"
+            src={featureImg}
             alt="feature-img"
             height="400px"
             width="400px"

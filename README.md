@@ -8,10 +8,10 @@ see more about my project: [github.com/swdrana](https://www.github.com/swdrana)
 
 ### Site Overview
 
-- Create with React.js.
+- Created by React.js.
+- This site has been created using custom hooks.
 - using React DOM.
-- This site create using Custom Hook.
-- This site create using JavaScript (props) de-structuring.
+- This site has been created using JavaScript (props) de-structuring.
 - in Dashboard Section has 4 Chart (Dynamic).
 - For responsive using React Bootstrap.
 - and also using:
@@ -20,6 +20,7 @@ see more about my project: [github.com/swdrana](https://www.github.com/swdrana)
   - Bootstrap Grid
   - React Route
   - Simple UI
+- Conditional Rendering. etc.
 
 Thank you for visiting our site.
 find me on facebook: [swdrana](https://www.facebook.com/swdrana)
