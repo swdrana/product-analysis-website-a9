@@ -1,0 +1,8 @@
+footer a{
+    text-decoration: none;
+    color:orangered;
+}
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
