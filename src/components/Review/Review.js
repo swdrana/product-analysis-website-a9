@@ -15,7 +15,7 @@ const Review = ({ rev }) => {
           />
           <div className="ms-4">
             <h5 className="text-start m-0 p-0">{name}</h5>
-            <p className="text-start m-0 mt-1 p-0">Reating: {ratings} </p>
+            <p className="text-start m-0 mt-1 p-0">Reating: {ratings.toFixed(2)} </p>
           </div>
         </div>
         <hr />
