@@ -16,3 +16,11 @@
     color: #fff;
     background-color: orangered;
 }
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .my-nav:first-child,.my-nav:last-child{
+        display: block !important;
+        padding: 0 !important;
+        margin: 0 auto !important;
+    }
+}

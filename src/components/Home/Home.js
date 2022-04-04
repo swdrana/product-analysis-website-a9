@@ -1,13 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import useReview from "../../utilities/hooks/useReview";
+import Review from "../Review/Review";
 import Reviews from "../Reviews/Reviews";
 import "./Home.css";
 const Home = () => {
+  const [reviews, setReviews] = useReview();
+  let only3reviews = reviews.slice(0, 3);
   return (
     <div>
       {/* Feature section  */}
-      <div className="feature d-flex mx-5 mt-5">
-        <div className="info col-md-w-50">
+      <div className="feature d-flex mx-5 mt-5 row">
+        <div className="info  col-md-8 col-sm-12">
           <h2 className="text-start">হাবলুদের জন্য প্রোগ্রামিং</h2>
           <h6 className="mb-4 mt-4 text-start">
             বেস্ট সেলার প্রোগ্রামিং বই!!!
@@ -34,7 +38,7 @@ const Home = () => {
             প্রোগ্রামিং-এর মজা পেয়ে এগিয়ে যেতে পারে।
           </p>
         </div>
-        <div className="img">
+        <div className="img col-md-4 col-sm-12">
           <img
             src="https://static-01.daraz.com.bd/p/mdc/95dac66cff6c0bab100e982c73511406.jpg"
             alt="feature-img"
@@ -46,7 +50,11 @@ const Home = () => {
 
       {/* Review Section  */}
       <div className="review-section">
-        <Reviews></Reviews>
+        <div className="row m-5">
+          {only3reviews.map((rev) => (
+            <Review key={rev.id} rev={rev}></Review>
+          ))}
+        </div>
         <div className="mb-5">
           <Link to="/reviews" className="mb-5">
             See All
