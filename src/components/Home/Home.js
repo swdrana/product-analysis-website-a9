@@ -1,7 +1,5 @@
 import React from "react";
-import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import NotFound from "../NotFound/NotFound";
 import Reviews from "../Reviews/Reviews";
 import "./Home.css";
 const Home = () => {
@@ -45,11 +43,15 @@ const Home = () => {
           />
         </div>
       </div>
-      
+
       {/* Review Section  */}
       <div className="review-section">
         <Reviews></Reviews>
-        <Link to='/reviews'>See All</Link>
+        <div className="mb-5">
+          <Link to="/reviews" className="mb-5">
+            See All
+          </Link>
+        </div>
       </div>
     </div>
   );
