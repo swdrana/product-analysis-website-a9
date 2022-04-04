@@ -8,18 +8,17 @@ const Header = () => {
       <Nav
         variant="pills"
         defaultActiveKey="/home"
-        className="d-flex justify-content-between px-5"
+        className="d-flex justify-content-between align-items-center px-5 nav"
       >
-        <h1>Education</h1>
-        <div className="d-flex">
-          <Nav.Item>
-          <Link to='/home'>Home</Link>
-            {/* <Nav.Link href="/home">Home</Nav.Link> */}
-          </Nav.Item>
-          <Nav.Item>
-              <Link to='/order'>Order</Link>
-            {/* <Nav.Link href="order">Order</Nav.Link> */}
-          </Nav.Item>
+        <h1 className="m-0">Book Review</h1>
+        <div className="d-flex ">
+          <Nav.Item>{/* <Nav.Link href="/home">Home</Nav.Link> */}</Nav.Item>
+          <Nav.Item>{/* <Nav.Link href="order">Order</Nav.Link> */}</Nav.Item>
+          <Link to="/home">Home</Link>
+          <Link to="/reviews">Reviews</Link>
+          <Link to="/dashboard">Dashboard</Link>
+          <Link to="/blogs">Blogs</Link>
+          <Link to="/about">About</Link>
         </div>
       </Nav>
     </div>
